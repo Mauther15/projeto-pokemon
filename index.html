@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex - Projeto Pokemon</title>
+
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <!--Fonte-->
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./imagens/pokeball.png" type="image/x-icon" />
+    <!--Favicon-->
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="./css/scrollbar.css">
+</head>
+
+<body>
+    <!-- <audio id="bg-sound" autoplay="" loop="">
+        <source src="src/bgm.mp3" type="audio/mpeg">
+      </audio> -->
+
+
+    <header>
+
+        <a href="#">
+            <img class="Logo" src="./imagens/pokeball.png" alt="pokebola">
+        </a>/<!--Logo-->
+
+        <button id="botao-alterar-tema">
+            <img class="imagem-botao" src="./imagens/sun.png" alt="imagem do Sol">
+        </button><!--Botão Tema-->
+
+    </header>
+
+    <main>
+        <ul class="listagem-pokemon">
+
+
+
+            <li class="cartao-pokemon fgp">
+
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/bulbasaur.gif" alt="Bulbasaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Há uma semente de planta
+                    em suas costas desde o dia que esse
+                    pokemon nasce. A semente cresce lentamente.
+                </p><!--Descrição-->
+
+            </li><!--Bulbasaur-->
+
+
+
+
+
+            <li class="cartao-pokemon fgp">
+
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/ivysaur.gif" alt="Ivysaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Quando o bulbo em suas
+                    costas cresce, parece perder
+                    a capacidade de ficar
+                    de pé em suas patas traseiras.
+                </p><!--Descrição-->
+
+            </li><!--Ivysaur-->
+
+
+
+
+
+            <li class="cartao-pokemon fgp">
+
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/venusaur.gif" alt="Venusaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Sua planta florece quando
+                    está absorvendo energia solar.
+                    Ele permanece em movimento
+                    para buscar a luz solar.
+                </p><!--Descrição-->
+
+            </li><!--Venusaur-->
+
+
+
+
+
+
+            <li class="cartao-pokemon ff">
+
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/charmander.gif" alt="Charmander" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Tem preferências por coisas
+                    quentes. Quando chove, diz-se
+                    que o vapor jorra da ponta
+                    de sua cauda.
+                </p><!--Descrição-->
+
+            </li><!--Charmander-->
+
+
+
+            <li class="cartao-pokemon ff">
+
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/charmeleon.gif" alt="Charmeleon" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Tem uma natureza bárbara. Na batalha, ele chicoteia sua
+                    cauda ardente e corta com garras afiadas.
+                </p><!--Descrição-->
+
+            </li><!--Charmeleon-->
+
+
+
+            <li class="cartao-pokemon fff">
+
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/charizard.gif" alt="Charizard" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                    <li class="tipo voador">Voador</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Ele cospe fogo que é quente o suficiente para
+                    derreter pedregulhos. Pode causar incêndios florestais
+                    soprando chamas.
+                </p><!--Descrição-->
+
+            </li><!--Charizard-->
+
+
+
+            <li class="cartao-pokemon fw">
+
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/squirtle.gif" alt="Squirtle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Quando ele retrai seu longo pescoço em sua
+                    concha, ele esguicha água com força vigorosa.
+                </p><!--Descrição-->
+
+            </li><!--Squirtle-->
+
+
+
+
+            <li class="cartao-pokemon fw">
+
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/wartortle.gif" alt="Wartortle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    É reconhecido como um símbolo de longevidade. Se sua concha tem
+                    algas, esse Wartortle é muito
+                    antigo.
+
+
+                </p><!--Descrição-->
+
+            </li><!--Wartortle-->
+
+
+
+            <li class="cartao-pokemon fw">
+
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/blastoise.gif" alt="Blastoise" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Ele esmaga seu inimigo sob seu corpo pesado para causar
+                    desmaios. Em uma pitada, ele se retirará
+                    dentro de sua concha.
+                </p><!--Descrição-->
+
+            </li><!--Blastoise-->
+
+
+
+
+            <li class="cartao-pokemon fi">
+
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/caterpie.gif" alt="Caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Para proteção, ele libera um fedor horrível da antena em sua
+                    cabeça para afastar os inimigos.
+                </p><!--Descrição-->
+
+            </li><!--Caterpie-->
+
+
+
+
+
+
+
+
+
+            <li class="cartao-pokemon fi">
+
+                <div class="informacoes">
+                    <span>Metapod</span>
+                    <span>#011</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/metapod.png" alt="Metapod" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Está esperando o momento de evoluir. Nesta fase,
+                    só pode endurecer, por isso permanece imóvel para
+                    evitar o ataque.
+                </p><!--Descrição-->
+
+            </li><!--Metapod-->
+
+
+
+
+
+
+
+
+            <li class="cartao-pokemon fif">
+
+                <div class="informacoes">
+                    <span>Butterfree</span>
+                    <span>#012</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/butterfree.png" alt="Butterfree" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo voador">Voador</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Coleta mel todos os dias. Esfrega mel nos
+                    pelos das pernas para levá-lo de volta ao ninho.
+                </p><!--Descrição-->
+
+            </li><!--Butterfree-->
+
+
+
+
+
+
+            <li class="cartao-pokemon fip">
+
+                <div class="informacoes">
+                    <span>Weedle</span>
+                    <span>#013</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/weedle.png" alt="Weedle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Cuidado com o ferrão afiado na cabeça. Esconde-se na grama
+                    e nos arbustos onde come folhas.
+                </p><!--Descrição-->
+
+            </li><!--Weedle-->
+
+
+
+
+
+
+
+            <li class="cartao-pokemon fip">
+
+                <div class="informacoes">
+                    <span>Kakuna</span>
+                    <span>#014</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/kakuna.png" alt="Kakuna" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Capaz de se mover apenas ligeiramente. Quando ameaçado,
+                    pode espetar seu ferrão e envenenar seu
+                    inimigo.
+                </p><!--Descrição-->
+
+            </li><!--Kakuna-->
+
+
+
+
+
+
+
+            <li class="cartao-pokemon fip">
+
+                <div class="informacoes">
+                    <span>Beedrill</span>
+                    <span>#015</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/beedrill.png" alt="Beedrill" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Tem três ferrões venenosos nas patas dianteiras e na cauda.
+                    Eles são usados para atacar seu inimigo
+                    repetidamente.
+                </p><!--Descrição-->
+
+            </li><!--Beedrill-->
+
+
+
+
+
+
+            <li class="cartao-pokemon ffn">
+
+                <div class="informacoes">
+                    <span>Pidgey</span>
+                    <span>#016</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/pidgey.png.gif" alt="Pidgey" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo voador">Voador</li>
+                    <li class="tipo normal">Normal</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Muito dócil. Se atacado, muitas vezes
+                    chuta areia para se proteger em vez de revidar.
+                </p><!--Descrição-->
+
+            </li><!--Pidgey-->
+
+
+
+
+            <li class="cartao-pokemon ffn">
+
+                <div class="informacoes">
+                    <span>Pidgeotto</span>
+                    <span>#017</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/pidgeotto.png" alt="Pidgeotto" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo voador">Voador</li>
+                    <li class="tipo normal">Normal</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Este Pokémon é cheio de vitalidade. Ele voa constantemente
+                    ao redor de seu grande território em
+                    busca de presas.
+                </p><!--Descrição-->
+
+            </li><!--Pidgotto-->
+
+
+
+
+
+
+            <li class="cartao-pokemon ffn">
+
+                <div class="informacoes">
+                    <span>Pidgeot</span>
+                    <span>#018</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/pidgeot.png" alt="Pidgeot" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo voador">Voador</li>
+                    <li class="tipo normal">Normal</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Este Pokémon voa na velocidade de Mach 2(2,385.36 Km/h), procurando
+                    presas. Suas grandes garras são
+                    temidas como armas perversas.
+                </p><!--Descrição-->
+
+            </li><!--Pidgeot-->
+
+
+
+
+
+
+
+            <li class="cartao-pokemon fn">
+
+                <div class="informacoes">
+                    <span>Rattata</span>
+                    <span>#019</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/rattata.png" alt="Rattata" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Vai mastigar qualquer coisa com suas presas. Se você vir um, pode ter
+                    certeza de que mais 40 moram
+                    na área.
+                </p><!--Descrição-->
+
+            </li><!--Rattata-->
+
+
+
+
+
+
+            <li class="cartao-pokemon fn">
+
+                <div class="informacoes">
+                    <span>Raticate</span>
+                    <span>#020</span>
+                </div><!--informacoes-->
+
+                <img src="./imagens/raticate.png" alt="Raticate" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul><!--Tipo-->
+
+                <p class="descricao">
+                    Suas patas traseiras são de teia. Eles atuam como nadadeiras, 
+                    para que possa nadar em rios e caçar
+                    presas.
+                </p><!--Descrição-->
+
+            </li><!--Raticate-->
+
+        </ul><!--Lista dos Pokemons-->
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
